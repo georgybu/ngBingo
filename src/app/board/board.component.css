@@ -1,0 +1,29 @@
+:host {
+    margin: 8px;
+    border: 1px solid black;
+    display: inline-block;
+    border-radius: 4px;
+}
+
+.col {
+    width: 20px;
+    height: 20px;
+    padding: 4px;
+    border: 1px solid lightgray;
+    background: whitesmoke;
+    margin: 4px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.has {
+    background: gray;
+    border: 1px solid black;
+    color: whitesmoke;
+}
+
+.win {
+    background: green;
+    color: whitesmoke;
+}

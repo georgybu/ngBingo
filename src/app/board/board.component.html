@@ -1,0 +1,5 @@
+<div *ngFor="let line of board" class="row">
+    <div *ngFor="let num of line" class="col" [ngClass]="{ 'has': num.has, 'win': num.win }">
+        {{ num.number }}
+    </div>
+</div>
